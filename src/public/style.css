@@ -1,0 +1,30 @@
+body {
+  font-family: "Tahoma", sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+#deleteForm label,
+#createForm label {
+  display: inline-block;
+  width: 120px;
+  margin: 5px 0;
+}
+
+form input[type="submit"] {
+  margin-left: 120px;
+  margin-top: 5px;
+}
